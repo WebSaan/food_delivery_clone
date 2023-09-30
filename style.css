@@ -1,0 +1,494 @@
+header{
+    background-color: #fffdf7;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.hero-section,.testimonial-section,.picture-section{
+    width: 100vw!important;
+}
+
+.my-navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    background-color: #fffdf7;
+    z-index: 10000;
+}
+.nav-link{
+    font-size: 14px!important;
+    font-weight: 400;
+    color: black!important;
+}
+.nav-search-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #69697b1a;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-right: 10px;
+  }
+  
+  .nav-search-div > input {
+    border: none;
+  }
+  .nav-link {
+    color: #212244 !important;
+    font-family: Poppins !important;
+    font-size: 16px !important;
+  }
+  .my-btn-1 {
+    background-color: #f94a3d !important;
+    color: var(--food-delivery-white-color, #fff);
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: -0.16px;
+    width: 100px;
+    height: 40px;
+  }
+
+.input-search{
+    /* border: 1px solid black; */
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+::placeholder{
+    font-size: 12px;
+}
+.search{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 1px grey;
+}
+.input-item{
+    height: 30px!important;
+    border: none!important;
+    border-radius: 10px!important;
+}
+.my-btn{
+    border: none;
+    color: white;
+    background-color:#f94a3d;
+    border-radius: 10px;
+    padding: 6px 18px;
+
+}
+.vertical-line-1 {
+    border-left: 2px solid #69697b1a;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+.hero-section{
+    background: linear-gradient(50deg, #fff7f6, #fffdf0);
+    /* border: 1px solid black; */
+    height: 700px;
+    margin-top: 40px;
+    height: 100vh;
+}
+.intro{
+    /* border: 1px solid black; */
+    width:50%;   
+}
+.main-section{
+    width: 85%;
+}
+
+.badge>img{
+    height: 20px;
+}
+.highlighter{
+    color: #f94a3d;
+}
+.intro>p{
+    font-size: 20px !important;
+    color: #858291;
+}
+.intro>button{
+    color: white;
+    background-color: #f94a3d;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.intro-image{
+    width:74% !important;
+}
+.intro-image>img{
+    float: right;
+    height: 650px;
+    /* margin-bottom: 150px; */
+}
+.features{
+    width: 85%;
+    margin-top: 100px!important;
+    /* border: 1px solid black; */
+}
+.my-card{
+    width:250px;
+    height:300px;
+    margin-inline: 25px;
+    border-radius: 10px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+.my-card>img{
+    width: 130px;
+    height: 130px;
+}
+.nav-items{
+    border-bottom: 1px solid darkgrey;
+}
+.page-link{
+    border: none!important;
+    color: #030303!important;
+    background-color: none!important;
+}
+.page-link:active{
+    color: #f94a3d!important;
+    background-color: none!important;
+    border-bottom: 1px solid #f94a3d!important;
+}
+.catagory-section-row{
+    width: 100%;
+    overflow-x: scroll;
+    
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    transform: scale(1.1);
+    transition: .3s ease all;
+}
+
+.my-list{
+    white-space: nowrap;
+}
+.catagory-section{
+    margin-top: 30px;
+    width: 85%;
+}
+::-webkit-scrollbar{
+    display: none;   
+}
+.colored-price{
+    color: #f94a3d;
+    font-weight: 700;
+}
+
+.btn{
+    border-radius: 10px!important;
+    border: 1px solid #f94a3d!important;
+    font-size: small!important;
+}
+.testimonial-section{
+    margin-top: 100px;
+    background-color: #f8f8f8;
+}
+.content{
+    /* border: 1px solid green; */
+    width: 80%;
+    height: 600px;
+}
+.my-container{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 350px;
+    overflow-y: auto;
+    margin: 50px;
+}
+.box{
+    background-color: #fdecec;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #f94a3d;
+    width: fit-content;
+}
+.dot{
+    margin-top: -.5rem;
+    height: 35px;
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.hello{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.head{
+    border: none;
+    border-radius: 10px;
+    background-color: #f94a3d;
+    padding: 20px;
+}
+.head:hover{
+    background-color: #e83b2e;
+    transition: .5s ease all;
+}
+
+.my-container-description{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 400px;
+    padding: 30px;
+    margin: 50px;
+
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+  }
+  
+  @property --gradX {
+    syntax: '<percentage>';
+    initial-value: 50%;
+    inherits: true;
+  }
+  
+  @property --gradY {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: true;
+  }
+  
+  p {
+      margin: 0;
+  }
+  
+  .my-card{
+      cursor: pointer;
+  }
+  
+  .my-card:hover {
+      --d: 2500ms;
+      --angle: 90deg;
+      --gradX: 100%;
+      --gradY: 50%;
+      --c1: #ffd005;
+      --c2: rgba(168, 239, 255, 0.1);
+  }
+  
+  .box1 {
+      font-size: 3vw;
+      margin: max(1rem, 3vw);
+      border: 0.35rem solid #f3f3f3;
+      width:250px;
+      height:300px;
+      border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+      animation: borderRotate var(--d) linear infinite forwards;
+  }
+  .box11 {
+    font-size: 3vw;
+    margin: max(1rem, 3vw);
+    border: 0.35rem solid #f3f3f3;
+    width:250px;
+    height:420px;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
+}
+  .box1>img{
+    margin-left: 2rem;
+  }
+  .box1>h4{
+    margin-left: 2rem;
+  }
+  
+  @keyframes borderRotate {
+      100% {
+          --angle: 420deg;
+      }
+  }
+  
+  @keyframes borderRadial {
+      20% {
+          --gradX: 100%;
+          --gradY: 50%;
+      }
+      40% {
+          --gradX: 100%;
+          --gradY: 100%;
+      }
+      60% {
+          --gradX: 50%;
+          --gradY: 100%;
+      }
+      80% {
+          --gradX: 0%;
+          --gradY: 50%;
+      }
+      100% {
+          --gradX: 50%;
+          --gradY: 0%;
+      }
+  }
+.comment{
+    border-left: 3px solid #ff0001;
+}
+.person{
+    height: 100px;
+    width: 300px;
+    border: none!important;
+    /* border: 1px solid #ff0000!important; */
+    margin: 10px 10px!important;
+    padding: 10px!important;
+    background-color: white;
+    border-radius: 10px!important;
+}
+.person>div>img{
+    width: 50px;
+    height: 50px;
+}
+.profile{
+    margin-left: 25px;
+}
+.profile-deg{
+    font-size: 10px;
+}
+.picture-section{
+ height: 600px;
+ margin-top:200px;
+}
+.pic>img{
+    width: 85%;
+}
+
+footer{
+    background: linear-gradient(45deg, #fff7f6, #fffdf0);
+     padding: 30px;
+}
+th{
+    font-size: 24px;
+}
+td{
+    font-size: 18px;
+}
+.first,.third{
+    width: 20%;
+}
+.first>img{
+    width:50%;
+}
+.icon-set{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+    background-color: black;
+}
+table{
+    width: 100%;
+    padding: 10px;
+}
+tr,td{
+    font-size: small;
+    width:150px;
+}
+.footer-item{
+    width:85%;
+}
+
+@media screen and (max-width: 767px){
+.main-section{
+    margin-top: 0px;
+    flex-direction: column-reverse;
+}
+#hero-section,#food{
+    height: 120vh;
+}
+.intro{
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+}
+
+.intro-image{
+    width: 100%;
+    margin: auto;
+}
+
+.intro-image>img{
+    width: 100%;
+    height: auto;
+
+}
+
+.features{
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.my-card{
+    margin: 10px;
+}
+
+.catagory-section{
+    width: 100%;  
+}
+
+.catagory-section>nav{
+    flex-direction: column;
+}
+
+.testimonial-section{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+.content{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+
+.my-container{
+    width: 100%;
+}
+.my-container-description{
+    width: 100%;
+}
+
+
+.picture-section{
+    margin:-150px;
+}
+footer{
+    width: 100%;  
+    flex-direction: column;
+}
+.footer-item{
+    width: 100%;  
+    flex-direction: column;
+}
+.first,.second,.third{
+    margin: 10px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+
+    
